@@ -1,0 +1,19 @@
+database:
+  url: "sqlite:///./spectra.db"
+trading:
+  default_sl: 0.02   # 2% Stop Loss
+  default_tp: 0.05   # 5% Take Profit
+  max_signal_per_min: 20
+  commission: 0.001  # עמלת מסחר (0.1%)
+api_keys:
+  exchange: "demo-key"
+logging:
+  level: "INFO"
+notifications:
+  enabled: true
+  email: "admin@spectra.com"
+authorization:
+  roles:
+    - admin
+    - trader
+    - viewer

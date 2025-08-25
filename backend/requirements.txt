@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+passlib
+python-jose
+requests
+apscheduler
+loguru
+email-validator
